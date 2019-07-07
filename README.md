@@ -25,4 +25,13 @@ Details on how I went about this process can be seen in my code [here](https://g
     - The Model is defined in the Python code [here](https://github.com/the-john/Deep_Q_Network_Project/blob/master/model.py) in a file named "model.py"
 4. And I save the Deep Q-Network Weights which can be found [here](https://github.com/the-john/Deep_Q_Network_Project/blob/master/checkpoint.pth) in a file named "checkpoint.pth"
 
-Now, anybody can load these Weights and run the Game.  How to do this can be seen at the end of the Python Notebook [here](), under the last section "Now I go ahead and run the trained Agent" at the end of the Notebook.
+The key dependency was the installation of python.  Then, there where several packages that where needed:
+- unityagents (from Unity)
+- collections
+- numpy
+- gym (from OpenAI)
+- random
+- torch
+- matplotlib.pyplot
+
+Now, anybody can load the trained Weights and run the Game.  The details of how to do this can be seen at the end of the Python Notebook [here](), under the last section "Now I go ahead and run the trained Agent" at the end of the Notebook.
