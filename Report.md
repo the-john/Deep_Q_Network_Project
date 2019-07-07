@@ -64,11 +64,11 @@ And the rest of the algorithm does these steps:
 
 I didn't spend any time playing with the hyperparameters on this project.  I pulled an Agent and associated Model from a previous OpenAI project called TaxiCab.  I started out with the exact same parameters that where used before, and BOOM, my Banana Navigation solved.  Soooooo ... if it aint broke, don't fix it.  These hyperparameters include:
 
-- Number of Episodes
-- Number of game plays in a training episode
-- Epsilon Start
-- Epsilon End
-- Epsilon Decay Rate
+- Number of Episodes = 1000
+- Number of game plays in a training episode = 1000
+- Epsilon Start = 1.0
+- Epsilon End = 0.01
+- Epsilon Decay Rate = 0.995
 
 
 ### The Model Architecture
